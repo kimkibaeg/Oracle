@@ -145,7 +145,7 @@ select eno, ename, salary, d.dno, dname, loc
 from emp01 e JOIN dept01 d
 on e.dno = d.dno
 where e.dno = 20;
-order by enmae desc ;
+order by ename desc ;
 
 -- INNER JOIN : ANSI SQL : 모든 DBMS에서 공통으로 사용되는 SQL 쿼리 (Oracle, MySQL, MSSQL, DB2)
         -- ON 절에 두 테이블의 공통분모만 출력

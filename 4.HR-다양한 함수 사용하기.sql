@@ -281,6 +281,7 @@ select to_date(770814, 'YYMMDD') from dual
     
 select round(months_between (sysdate, to_date('2003/08/02', 'YYYY-MM-DD'))) 개월수, round(sysdate-to_date('2003/08/02', 'YYYY-MM-DD')) 며칠 from dual;
     
+    select round(months_between (sysdate, to_date('2003/08/02', 'YYYY-MM-DD'))) 개월수 from dual;
 -- employee 테이블에서 2050년 12월 24일 까지의 날짜 (일수)를 출력
 
 select
